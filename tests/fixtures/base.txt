@@ -1,0 +1,13 @@
+pick|4|1|0|elwynn|Adventurer|0,0,0,0,0|100,100,100,100
+unlock|4|2
+items|104000,104010,104800
+equip|4|0:104010,15:104800
+look|4|18:90002
+talent|4|4792|precision_rogue:5,imp_sinister:3,endurance_rogue:3,blade_flurry_talent:1,dual_wield_rogue:5,sword_spec_rogue:3
+seen|accuria=1
+ach|feat:bare
+achat|feat:bare=1700000000
+stat|kills=1000,gold=250,guardians=1,bosses=1,runs=2,wins=1,caches=3
+beat|4|elwynn
+hero|4|1|0|0,0,0,0,0
+custom|preserved
