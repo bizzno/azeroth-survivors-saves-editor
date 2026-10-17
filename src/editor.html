@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Azeroth Survivors Saves Editor</title>
+<style>/*__STYLES__*/</style></head><body>
+<svg style="display:none" aria-hidden="true"><defs><symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 3 6v6c0 5 9 9 9 9s9-4 9-9V6zM12 7v10M8 11h8"/></symbol><symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9z"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-3-3-7-3-10-2v15c4-1 7-1 10 2 3-3 6-3 10-2V4c-3-1-7-1-10 2v15"/></symbol><symbol id="i-map" viewBox="0 0 24 24"><path d="m2 5 6-2 8 3 6-2v16l-6 2-8-3-6 2zM8 3v16M16 6v16"/></symbol><symbol id="i-sword" viewBox="0 0 24 24"><path d="M21 3 17 4 6 15l3 3L20 7zM3 14l7 7M6 18l-3 3"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l2 13H3zM8 8V6a4 4 0 0 1 8 0v2M8 14h8"/></symbol><symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M4 15v6h16v-6"/></symbol><symbol id="i-save" viewBox="0 0 24 24"><path d="M3 3h15l3 3v15H3zM7 3v6h10V3M7 21v-8h10v8"/></symbol><symbol id="i-code" viewBox="0 0 24 24"><path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 3l-4 18"/></symbol></defs></svg>
+<header><div class="brand"><div class="crest"><svg class="icon"><use href="#i-sword"/></svg></div><div><strong>Azeroth Survivors</strong><small>Saves Editor</small></div></div><div class="actions"><button class="ghost" id="undo" disabled>↶ Undo</button><button id="paste">Paste save text</button><button id="open"><svg class="icon"><use href="#i-upload"/></svg> Open save</button><button class="primary" id="download" disabled><svg class="icon"><use href="#i-save"/></svg> Export save</button></div><input id="file" type="file" accept=".sav,.txt" hidden></header>
+<div id="status" class="status" role="status" aria-live="polite">Your next adventure starts here. Open a save to begin.</div><div class="workspace"><aside id="navigation" aria-label="Editor sections"></aside><main id="main"></main></div>
+<div class="dialog-back" id="pasteDialog" hidden><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="pasteTitle"><h2 id="pasteTitle">Open from text</h2><p class="muted">Paste an encrypted RSE1 save or the decoded progression text.</p><textarea id="pasteText" aria-label="Save text" spellcheck="false" placeholder="RSE1:… or pick|…"></textarea><p id="pasteError" style="color:#f2b19d" role="alert"></p><div class="row"><button id="cancelPaste">Cancel</button><button id="loadPaste" class="gold">Open text</button></div></section></div>
+<script>
+/*__CORE__*/
+/*__CATALOG__*/
+/*__PRESETS__*/
+/*__APP__*/
+</script></body></html>
