@@ -1,0 +1,8 @@
+node_modules/
+*.sav
+*.wasm
+private/
+.env
+.env.*
+.DS_Store
+Thumbs.db

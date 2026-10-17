@@ -1,0 +1,13 @@
+{
+  "name": "azeroth-survivors-saves-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first Azeroth Survivors save editor.",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "npm run build && node tests/editor.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
